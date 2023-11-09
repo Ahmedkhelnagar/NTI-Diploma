@@ -18,7 +18,7 @@
 #define arr_size 100
 
 /************************Global Variables****************/
-u8 arr_cal[arr_size]={0};
+u16 arr_cal[arr_size]={0};
 u8 arr_index=0;
 u8 key=0;
 u8 flagResult=0;

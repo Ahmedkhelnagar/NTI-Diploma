@@ -172,50 +172,6 @@ void CheckNum(u8 num)
 		arr_index++;
 	}
 }
-//
-//u8 checkOperators(void)
-//{
-//	for(u8 i=0;i<arr_index;i++)
-//	{
-//		if((arr_cal[i]=='*' && arr_cal[i-1]=='/') || (arr_cal[i]=='*' && arr_cal[i+1]=='/'))
-//		{
-////			return 1;
-//			break;
-//		}
-//		if( (arr_cal[i]=='/' && arr_cal[i-1]=='*') || (arr_cal[i]=='/' && arr_cal[i+1]=='*'))
-//		{
-//			return 1;
-//		}
-//		if((arr_cal[i]=='+' && arr_cal[i-1]=='-') || (arr_cal[i]=='+' && arr_cal[i+1]=='-'))
-//		{
-//			return 1;
-//		}
-//		if( (arr_cal[i]=='-' && arr_cal[i-1]=='+') || (arr_cal[i]=='-' && arr_cal[i+1]=='+'))
-//		{
-//			return 1;
-//		}
-//		if( (arr_cal[i]=='-' && arr_cal[i-1]=='/') || (arr_cal[i]=='-' && arr_cal[i+1]=='/'))
-//		{
-//			return 1;
-//		}
-//		if( (arr_cal[i]=='/' && arr_cal[i-1]=='-') || (arr_cal[i]=='/' && arr_cal[i+1]=='-'))
-//		{
-//			return 1;
-//		}
-//		if( (arr_cal[i]=='*' && arr_cal[i-1]=='+') || (arr_cal[i]=='*' && arr_cal[i+1]=='+'))
-//		{
-//			return 1;
-//		}
-//		if( (arr_cal[i]=='+' && arr_cal[i-1]=='*') || (arr_cal[i]=='+' && arr_cal[i+1]=='*'))
-//		{
-//			return 1;
-//		}
-//		else
-//		{
-//			return -1;
-//		}
-//	}
-//}
 
 
 /********************************************************

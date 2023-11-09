@@ -96,7 +96,7 @@ void Cal_Result(void)
 			}
 			else
 			{
-				arr_cal[i+1]-=arr_cal[i-1];
+				arr_cal[i-1]=arr_cal[i+1]-arr_cal[i-1];
 			}
 			ShiftArray(i);
 			i=0;
